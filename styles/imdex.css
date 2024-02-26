@@ -1,0 +1,366 @@
+/* universal style of tha page */
+* {
+  margin: 0;
+}
+/* Primary style  */
+
+/* header banner related style  */
+.header {
+  width: 1920px;
+  height: 850px;
+}
+.banner_title {
+  color: #272727;
+  font-family: "Lato";
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner_summary {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.header_banner {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+}
+.banner_content {
+  margin-top: 197px;
+  max-width: 708px;
+}
+.header_image {
+  width: 635px;
+  height: 800px;
+  margin-top: 50px;
+}
+.button_primary_01 {
+  border: 0px;
+  border-radius: 8px;
+  background: #e55473;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Main section relation style */
+/* Flower section  */
+.floewrs_section_title {
+  margin-top: 178px;
+  margin-bottom: 24px;
+  color: #272727;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 800;
+}
+.flowers_section_summary {
+  color: rgba(39, 39, 39, 0.6);
+  max-width: 594px;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 34%;
+  margin-right: 34%;
+}
+/* Flowers Section style */
+.flowers_section {
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 50px;
+  display: flex;
+}
+#f_01 {
+  margin-right: 24px;
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.flowers_01 {
+  background-image: url("../Flower_Asset/pngwing_6.png");
+  background-color: lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 428px;
+  flex-shrink: 0;
+  margin: 110px 76px 0px 76px;
+}
+#f_02 {
+  margin-right: 24px;
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.flowers_02 {
+  background-image: url("../Flower_Asset/pngwing\ 5.png");
+  background-color: lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 370px;
+  height: 370px;
+  flex-shrink: 0;
+  margin: 117px 71px 83px 47px;
+}
+#f_03 {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.flowers_03 {
+  background-image: url("../Flower_Asset/pngwing\ 7.png");
+  background-color: lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 428px;
+  flex-shrink: 0;
+  margin: 110px 76px 0px 76px;
+}
+.flowers_tag {
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+/* WEbsite relative style */
+.website_info {
+  justify-content: space-evenly;
+  margin-top: 200px;
+  display: flex;
+  margin-left: 240px;
+  margin-right: 225px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 1440px;
+  height: 320px;
+  flex-shrink: 0;
+}
+.website_info_image {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  margin-top: 86px;
+  margin-bottom: 24px;
+}
+.website_info_summary {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 600;
+}
+.website_info_section {
+  text-align: center;
+}
+
+/* sell relative style */
+.sell_container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  width: 1922px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.sell_info_section_title {
+  color: #272727;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 230px;
+  margin-bottom: 24px;
+}
+#span_01 {
+  color: #e55473;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 800;
+}
+.sell_info_section_symmary {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 594px;
+  margin-bottom: 32px;
+}
+.button_primary_02 {
+  border: 0px;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sell_image_section {
+  margin-top: 100px;
+}
+/*Instagram relation style*/
+.instagram_section {
+  margin-top: 150px;
+}
+.instagram_section-title {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.instagram_section_summary {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 594px;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-bottom: 48px;
+}
+.instagram_post {
+  margin-left: 240px;
+  margin-right: 225px;
+}
+.instagram_post_section {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Deals relation style */
+.deals_container {
+  background-image: url("../Flower_Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  margin-left: 240px;
+  margin-top: 150px;
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+}
+.deals_container_title {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 150px;
+  margin-bottom: 20px;
+}
+.deals_container_summary {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.deals_container_submition {
+  text-align: center;
+}
+.deals_container_email {
+  border: 0px;
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+.deals_container_button {
+  border: 0px;
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+/* Footer relative style */
+
+footer {
+  margin-top: 150px;
+  width: 1922px;
+  height: 449px;
+  flex-shrink: 0;
+  background: #111010;
+}
+.footer_section {
+  text-align: center;
+}
+.footer_section_title {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 48px;
+  padding-top: 128px;
+  margin-bottom: 24px;
+}
+#span_02 {
+  color: #e55473;
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.footer_section_summary {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 625px;
+  margin-left: 34%;
+  margin-right: 34%;
+}
+.footer_section_policy {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
+}
